@@ -119,5 +119,5 @@ alias vim="~/nvim-macos/bin/nvim"
 
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
-export EDITOR="nvim"
-export VISUAL="nvim"
+export EDITOR="vim"
+export VISUAL="vim"

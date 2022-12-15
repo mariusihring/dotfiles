@@ -35,6 +35,7 @@ return require('packer').startup(function()
             ts_update()
         end,
     }
-    use 'nvim-tree/nvim-web-devicons'
+    use 'kyazdani42/nvim-web-devicons'
     use 'cohama/lexima.vim'
+    use 'windwp/nvim-ts-autotag'
 end)

@@ -15,6 +15,9 @@ vim.diagnostic.config({
 vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]]
 print("Hello world")
 require 'nvim-treesitter.configs'.setup {
+    autotag = {
+        enabled = true
+    },
     -- A list of parser names, or "all"
     ensure_installed = { "c", "lua", "rust" },
 

@@ -1,0 +1,44 @@
+# Changing Window Focus
+
+alt - j: yabai -m window --focus south
+alt - k: yabai -m window --focus north
+alt - h: yabai -m window --focus west
+alt - l: yabai -m window --focus east
+
+
+#change focus on monitors with equivalent to hjkl but on left keyboard
+
+alt - a: yabai -m display --focus south
+alt - s: yabai -m display --focus north
+alt - d: yabai -m display --focus west
+alt - f: yabai -m display --focus east
+
+
+
+# modifiing current layout of the screen
+
+#rotate layout clockwise
+shift + alt - r: yabai -m space --rotate 270
+
+# flip along y-axis
+shift + alt - y: yabai -m space --mirror y-axis
+
+# flip along x-axis
+shift + alt - x: yabai -m space --mirror x-axis
+
+#toggle window float
+shift + alt - t: yabai -m window --toggle float --grid 4:4:1:1:2:2
+
+
+
+
+# Modifiing Window size
+#
+shift + alt - m: yabai -m window --toggle zoom-fullscreen
+
+# balance out tree of windows
+shift + alt - e: yabai -m space --balance
+
+# swap windows
+
+shift + alt - j: yabai -m window --swap south
